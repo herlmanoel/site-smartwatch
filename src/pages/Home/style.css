@@ -1,0 +1,81 @@
+#root{
+    overflow-y: hidden;
+}
+.container {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: row; 
+   
+}
+
+.block-01 h1 {
+    font-size: 6rem;
+    color: #fff;
+} 
+.block-01 h2 {
+    font-size: 2rem;
+    color:  #F29494;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+} 
+.block-01 .block-text-subtitle h3 {
+    font-size: 1.5rem;
+    color:  #A4A7AC;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    max-width: 400px;
+}
+
+.block-02 img {
+    width: 40vw;
+    margin-top: -2vh;
+    margin-left: 10%;
+}
+
+.container .block-01, .block-02 {
+    width: 50%;
+    height: 60vh;
+}
+
+.container .block-01  .block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    height: 50%;
+    margin-left: 15rem;
+}
+
+.container .block-01  .block-cards {
+    height: 50%;
+}
+
+.block-cards {
+    margin-top: 4rem;
+}
+
+@media (max-width: 890px){
+    .block-02 img {
+        display: none;
+    }
+    .container {
+        width: 100vw;
+        display: flex;
+     }
+     .block-01 {
+        width: 100vw;
+     }
+     .block-02 {
+         display: none;
+     }
+}
+
+@media (max-width: 1400px) {
+    .block-01 h1 {
+        font-size: 500%;
+    }
+    .block-01 h2 {
+        font-size: 1.5rem;
+    }
+}

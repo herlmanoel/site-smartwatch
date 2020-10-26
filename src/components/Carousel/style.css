@@ -1,0 +1,10 @@
+.rec-slider-container {
+    margin-left: -12rem !important;
+}
+.rec-arrow-left {
+    visibility: hidden;
+}
+
+.rec.rec-arrow:hover {
+    background-color: var(--color-background-card) !important;
+}

@@ -1,0 +1,44 @@
+:root {
+    font-size: 60%;
+    --color-background-primary:#08162A;
+    --color-background-secondary: #F29494;
+    --color-background-secondary-hover: #F57070;
+    --color-background-card: #2B3544;
+    --color-background-subtitle: #A4A7AC;
+ 
+    font-size: 60%; /* 9.6px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    background: var(--color-background-primary);
+}
+
+#root {
+    overflow-x: hidden;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+body,
+input,
+button,
+textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font: 500 1.6rem MarkW01-Heavy;
+}
+
